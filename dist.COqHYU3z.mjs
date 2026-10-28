@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Bi-D_2cA.mjs";import{w as t,x as n}from"./react.p3VyPFJt.mjs";function r(){throw Error(`A function wrapped in useEffectEvent can't be called during rendering.`)}function i(e){let t=n.useRef(r);return n.useInsertionEffect((()=>{t.current=e}),[e]),(...e)=>{o()&&r();let n=t.current;return n(...e)}}var a,o;function s(){return(s=e((()=>{t(),a=n.createContext(!0),o=`use`in n?()=>{try{return n.use(a)}catch{return!1}}:()=>!1})))()}export{s as n,i as t};
+//# sourceMappingURL=dist.COqHYU3z.mjs.map
